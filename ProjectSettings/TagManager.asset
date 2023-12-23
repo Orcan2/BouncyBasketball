@@ -17,6 +17,7 @@ TagManager:
   - Ok
   - fist
   - island1
+  - thropy
   layers:
   - Default
   - TransparentFX
@@ -35,11 +36,11 @@ TagManager:
   - watchman
   - miniRock
   - missile
-  - 
-  - 
-  - 
-  - 
-  - 
+  - treecolliders
+  - kalemlik
+  - kalem
+  - calculator
+  - claw
   - 
   - 
   - 

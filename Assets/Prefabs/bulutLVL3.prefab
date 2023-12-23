@@ -659,6 +659,7 @@ GameObject:
   - component: {fileID: 5546595676042962527}
   - component: {fileID: 5476863192890337901}
   - component: {fileID: 4523119803802886738}
+  - component: {fileID: -6021433163374159571}
   m_Layer: 0
   m_Name: bulutLVL3
   m_TagString: Untagged
@@ -675,7 +676,7 @@ Transform:
   m_GameObject: {fileID: 5166376224912735461}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -19.214964, y: 82.70346, z: -171.00815}
-  m_LocalScale: {x: 3.5489657, y: 3.5489657, z: 3.5489657}
+  m_LocalScale: {x: 11.03332, y: 11.03332, z: 11.03332}
   m_Children:
   - {fileID: 2407498171049394027}
   - {fileID: 4723844644986048620}
@@ -708,7 +709,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &4523119803802886738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -717,11 +718,24 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5166376224912735461}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 14.628218, y: 2.0411863, z: 2.8751247}
-  m_Center: {x: -0.7702217, y: -0.52059287, z: -0.29074225}
+  m_Size: {x: 14.628218, y: 6.143375, z: 2.8751247}
+  m_Center: {x: -0.77022153, y: 1.530503, z: -0.2907422}
+--- !u!114 &-6021433163374159571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5166376224912735461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23650d3b00886244199cd41980708677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: -2000
 --- !u!1 &6050884258181975822
 GameObject:
   m_ObjectHideFlags: 0
